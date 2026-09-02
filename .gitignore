@@ -1,0 +1,13 @@
+# Repository-level noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Root env files
+.env
+.env.*
+!.env.example
+
+# If a root-level install directory is ever created
+node_modules/
